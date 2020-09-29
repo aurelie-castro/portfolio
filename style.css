@@ -1,0 +1,67 @@
+/* variables */
+:root{
+    --bg-color:rgb(236, 233, 233);
+    --main-color:white;
+    --main-font: 'Roboto', sans-serif;
+    --link-color:grey;
+    --link-color-hover:black;
+}
+
+/* general */
+html, body{
+    background-color: var(--bg-color);
+    font-family: var(--main-font);
+
+}
+
+/* title */
+h1, h2{
+    margin-left:60px;
+}
+
+.titre{
+    margin-top: 90px;
+    margin-left: 730px;
+}
+
+
+.gen{
+    background-color: var(--main-color);
+    width: 900px;
+    height:1000px;
+    margin-left:500px;
+    padding:10px;
+    
+}
+
+p{
+    justify-content: left;
+    margin-left:60px;
+}
+
+
+/* list */
+ul{
+    list-style-type:none;
+    margin:0;
+    padding: 0;
+    margin-left:60px;
+}
+
+/* links */
+a{
+    text-decoration: none;
+    color:var(--link-color);
+    display: block;
+    margin-left:60px;
+}
+
+a:hover{
+    color:var(--link-color-hover);
+}
+
+/* a:visited{
+    color:rgb(82, 1, 82);
+} */
+
+
